@@ -40,8 +40,8 @@ module "dev" {
         built_in_controls = ["mfa"]
         operator          = "OR"
       }
-    },
-    {
+    }
+    /* {
       name  = "string"
       state = "POLICY STATE - OPTIONS: enabled / disabled / enabledForReportingButNotEnforced"
       conditions = {
@@ -87,7 +87,6 @@ module "dev" {
         sign_in_frequency                         = 10 # !!OPTIONAL!! NUMBER OF DAYS OR HOURS TO ENFORCE SIGN-IN FREQUENCY
         sign_in_frequency_period                  = "!!OPTIONAL!! THE TIME PERIOD TO ENFORCE SIGN-IN FREQUENCY, OPTIONS - hours / days"
       }
-
-    }
+    } */
   ]
 }
